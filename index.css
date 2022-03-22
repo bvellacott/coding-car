@@ -1,0 +1,77 @@
+.layout {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.track-window {
+  position: relative;
+  overflow: hidden;
+  width: 480px;
+  height: 480px;
+  border: solid 1px black;
+}
+
+.track {
+  position: relative;
+  overflow: visible;
+}
+
+.track-part {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+}
+
+.track-part__1 {
+  left: -480px;
+  top: -480px;
+}
+
+.track-part__2 {
+  left: 0;
+  top: -480px;
+}
+
+.track-part__3 {
+  left: 480px;
+  top: -480px;
+}
+
+.track-part__4 {
+  left: -480px;
+  top: -0px;
+}
+
+.track-part__5 {
+  left: 0px;
+  top: 0px;
+}
+
+.track-part__6 {
+  left: 480px;
+  top: 0px;
+}
+
+.track-part__7 {
+  left: -480px;
+  top: 480px;
+}
+
+.track-part__8 {
+  left: 0;
+  top: 480px;
+}
+
+.track-part__9 {
+  left: 480px;
+  top: 480px;
+}
+
+.car {
+  position: relative;
+  left: calc(240px - 24px);
+  top: calc(240px - 36px);
+}
